@@ -40,7 +40,7 @@
 ---
 <div style="page-break-after: always;"></div>
 
-## <center> <a name="phpldapinstall"/>StSteps for phpldapinstallation
+## <center> <a name="phpldapinstall"/>Steps for phpldapinstallation
  
 * For steps please look at http://www.itzgeek.com/how-tos/linux/centos-how-tos/install-configure-phpldapadmin-centos-7-ubuntu-16-04.html
 ---
