@@ -1,0 +1,25 @@
+# AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
+# CRC32 7d6d810f
+dn: olcDatabase={2}hdb
+objectClass: olcDatabaseConfig
+objectClass: olcHdbConfig
+olcDatabase: {2}hdb
+olcDbDirectory: /var/lib/ldap
+olcDbIndex: objectClass eq,pres
+olcDbIndex: ou,cn,mail,surname,givenname eq,pres,sub
+structuralObjectClass: olcHdbConfig
+entryUUID: ded07f7a-00a1-1037-99d5-db888fa14448
+creatorsName: cn=config
+createTimestamp: 20170719074442Z
+olcSuffix: dc=novare,dc=com,dc=hk
+olcRootDN: cn=ldapadm,dc=novare,dc=com,dc=hk
+olcRootPW:: e1NTSEF9YTZOVFJqL1V5em1EaTNmWjI5UUViZ2h0TkQyek5EbG4=
+olcAccess: {0}to attrs=userPassword by dn="cn=ldapadm,dc=novare,dc=com,dc=hk
+ " write by anonymous auth by self write by * none
+olcAccess: {1}to dn.base="" by * read
+olcAccess: {2}to * by self write by dn="cn=ldapadm,dc=novare,dc=com,dc=hk" w
+ rite by dn="cn=anotheruser,ou=Users,dc=novare,dc=com,dc=hk" write by * read
+entryCSN: 20170719075308.474296Z#000000#000#000000
+olcDbLinearIndex: FALSE
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20170719075308Z

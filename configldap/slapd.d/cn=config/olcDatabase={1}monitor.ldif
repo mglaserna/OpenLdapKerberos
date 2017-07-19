@@ -1,0 +1,15 @@
+# AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
+# CRC32 fcc4751e
+dn: olcDatabase={1}monitor
+objectClass: olcDatabaseConfig
+olcDatabase: {1}monitor
+structuralObjectClass: olcDatabaseConfig
+entryUUID: ded07ae8-00a1-1037-99d4-db888fa14448
+creatorsName: cn=config
+createTimestamp: 20170719074442Z
+olcAccess: {0}to * by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=extern
+ al, cn=auth" read by dn.base="cn=ldapadm,dc=novare,dc=com,dc=hk" read by * 
+ none
+entryCSN: 20170719074548.717104Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20170719074548Z
