@@ -1,0 +1,22 @@
+dn: dc=novare,dc=com,dc=hk
+dc: novare
+objectClass: top
+objectClass: domain
+
+dn: cn=ldapadm,dc=novare,dc=com,dc=hk
+objectClass: organizationalRole
+cn: ldapadm
+description: LDAP Manager
+
+dn: ou=People,dc=novare,dc=com,dc=hk
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Users,dc=novare,dc=com,dc=hk
+ou: Users
+objectClass: organizationalUnit
+
+dn: ou=Groups,dc=novare,dc=com,dc=hk
+ou: Groups
+objectClass: organizationalUnit
+
